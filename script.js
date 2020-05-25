@@ -3,9 +3,7 @@ class Popup {
     constructor(header, text){
         this.header = header
         this.text = text
-    }
 
-    create(){
         const root= document.querySelector('.root')
 
         const mainDiv = document.createElement('div')
@@ -40,10 +38,7 @@ class Popup {
         const modalBodyText = document.createElement('p')
         modalBodyText.innerText = this.text
         modalBody.appendChild(modalBodyText)
-
-
     }
-
 
 
     run(){
